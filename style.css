@@ -1,0 +1,61 @@
+* {
+    font-family: Roboto;
+
+}
+
+.First_Box, .Fifth_Box{
+    background-color: #1F2937;
+
+    }
+
+.Main_Text, .Header_Logo{
+    color: #F9FAF8;
+}
+
+.Header{
+    display: flex;
+}
+
+.Placeholder{
+    display: flex;
+}
+
+.Header_Logo{
+    font-size: 24px;
+}
+
+.Main_Text{
+    font-size: 48px;
+}
+
+.Secondary_Text, .Footer, .Header_Link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Sign_Up, .Fourth_Box{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.Main_Text, .Information_Header{
+    font-weight: 900;
+}
+
+.Information_Header, .Quote_Text{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.Quote_Text{
+    font-style: italic;
+}
+
+.Third_Box{
+    background-color: #E5E7EB;
+}
+
+
+.Footer{
+    text-align: center;
+}

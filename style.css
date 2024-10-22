@@ -1,61 +1,205 @@
 * {
-    font-family: Roboto;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
 }
 
-.First_Box, .Fifth_Box{
-    background-color: #1F2937;
-
-    }
-
-.Main_Text, .Header_Logo{
-    color: #F9FAF8;
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.Header{
-    display: flex;
+p {
+  font-size: 18px;
+  margin: 2px;
 }
 
-.Placeholder{
-    display: flex;
+ul {
+  display: flex;
+  padding-top: 5px;
 }
 
-.Header_Logo{
-    font-size: 24px;
+ul > li {
+  list-style-type: none;
+  margin-left: 30px;
 }
 
-.Main_Text{
-    font-size: 48px;
+.First_Section {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 62vh;
 }
 
-.Secondary_Text, .Footer, .Header_Link{
-    font-size: 18px;
-    color: #E5E7EB;
+.Nav_Links {
+  margin-left: 200px;
 }
 
-.Sign_Up, .Fourth_Box{
-    background-color: #3882F6;
-    color: #E5E7EB;
+.Nav_Bar {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.Main_Text, .Information_Header{
-    font-weight: 900;
+.Header_Logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-left: 50px;
 }
 
-.Information_Header, .Quote_Text{
-    font-size: 36px;
-    color: #1F2937;
+.Info_Box {
+  width: 100vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
 }
 
-.Quote_Text{
-    font-style: italic;
+.Left {
+  width: 40vw;
+  height: 55vh;
+  padding-right: 2%;
+  padding-top: 4%;
 }
 
-.Third_Box{
-    background-color: #E5E7EB;
+.Hero_Secondary {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
+.Right {
+  width: 38vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.Footer{
-    text-align: center;
+.Placeholder {
+  width: 30vw;
+  height: 35vh;
+}
+
+img {
+  width: 404px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.Hero_Main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.Button {
+  border: 1px solid black;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 2px 15px;
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.Second_Section {
+  background-color: #f9faf8;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Second_Title_Box {
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+}
+
+.Second_Title_Text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 50px;
+}
+
+.Second_Section_Boxes {
+  width: 65vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Second_Section_Box_Text {
+  width: 65vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Box_Images {
+  width: 135px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.Third_Section {
+  width: 100vw;
+  height: 60vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 20%;
+}
+
+.Third_Section_Text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.Author {
+  margin-left: 75%;
+}
+
+.Fourth_Section {
+  width: 100vw;
+  height: 50vh;
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fourth_Section_Box {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 75vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Fourth_Section_Button {
+  border: 1px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 2px 15px;
+  width: 100px;
+  height: 40px;
+}
+
+.Footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
